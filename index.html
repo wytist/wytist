@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <HTML>
 <HEAD>
+  
   <script>
     if (window.location.hostname.indexOf("www") == 0) {
       window.location = window.location.href.replace("www.", "");
@@ -10,6 +11,17 @@
     if ((host == window.location.host) && (window.location.protocol == "http"))
       window.location.protocol = "https";
   </script>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85305698-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-85305698-1');
+  </script>
+  
 </HEAD>
 <BODY>
   <h1 style="align:center">wytist</h1>
